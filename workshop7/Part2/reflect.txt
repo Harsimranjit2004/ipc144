@@ -1,0 +1,37 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #7
+Full Name  : Harsimranjit singh
+Student ID#: 155452220
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1Ans: For handling the repetitive coding part i use function for a specific 
+    logic so that i can call only the function to the repetative coding logic
+    like the display the board, or player position , in my code i send necessary
+    arguments that helps the function to display the board accordingly
+    like in display board i send struct gameInfo and playerInfo so that
+    we can display the logic accordingly. so due to this i use functions
+    in my coding logic. 
+
+2Ans: Use of sturctures makes the workflow of coding easy as we can declare only
+    use one variable for multiple types of values in context of code we use gameInfo
+    struct that has four objects max_moves,path_length, bombs[], treasure[]
+    so if we are not using struct, we need to create all this variables and arrays for
+    individual that are not directly corelated to each other. my doing this we declare 
+    lot of variables which may difficult to deal with. 
+
+3Ans: 
+    while(){
+        for(){
+            if{
+                break;
+            }
+        }
+    }
+
+    in my code i  use two level of nested looping first is while loop and second level  is for loop

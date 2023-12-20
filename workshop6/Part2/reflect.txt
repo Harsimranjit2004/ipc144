@@ -1,0 +1,44 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #6
+Full Name  : Harsimranjit singh
+Student ID#: 155452220
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1Ans: 
+    1.  For loop: This loop is used in that time when we know the range of
+     itereration like in case of arrays we know the length of arrays so we 
+     can iterate in that from 0 to last index.
+
+    2.  while loop: in while loop the number of iterations that we are doing. 
+    are not known beforetime or it depend on the user input and it continous.
+     if as specific condition met.
+
+    3. Do-while: it is same as while loop as it runs until the specific condition met.
+     but it runs one time always it checks conditoin after doing work.
+    In the case of arrays, we usually use the for loop as we already know the length of the arrays.
+
+
+2Ans:
+    For Syntax Testing : the console provide the description of the syntax error and also provide the 
+    line number in which the syntax error occur. by using these infromation we can find the syntax error in our code
+
+    For Semantic Error: Means for logical errors or issues that occur when the program runs, but the output is incorrect 
+    to find these error 1st find the area in code where error occure then with use of print statement print the value of 
+    incoreect variable before logic and after logic these will tell us about our logic that our logic is correct or not
+    sometimes our logic is only true for specific set of entries 
+
+3Ans:
+    1st i go to this line and check the variable name is correct or not 
+    2nd i print the value of variable before print statement to check the value of the variable if 
+        it has correct value then this means in print statement the variable name is not correct or 
+        if it is not correct then these means that above logic is incorrect
+
+    or 
+    if these statement using scanf for these values then these means that user are provide value 567.89 but according to testcases the value must be 0 so these couse this error.
+    

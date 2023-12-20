@@ -1,0 +1,5 @@
+1.Ans: Actually i have prior experice of two year in coding as i learned java language in my senior seconday education. moreover i also know the solidity and javascript also. 
+
+2.Ans: As we know that the computer only understand two numbers that is 0 and 1. so our program written in abc is understandable by the computer so compiler is like a middle man between between computer and user. the compiler convert all our text code into the machine language that is in 0 and 1 and execute it.
+
+3.Ans:I think i achieve fundamental knowledge of programming from this course as it is like building block for other software work, and my goal is to learn the fundamentals of programmings using c language.

@@ -1,0 +1,28 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #4
+Full Name  : Harsimranjit singh
+Student ID#: 155452220
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+1Ans: 
+FOR NESTED LOOPS OR CONDITIONALS i always provide space before the nested conditinals and loops. i always use Allman style coding for writing loops and other conditinals
+
+FOR VARIBALS i declare the name of variables according to the logic for example for pears section use variables name with pears
+
+in my code i always provide space between oprands and the operators to provide the clear view 
+
+2Ans:
+Nested logic is important in this type of program where we need to apply complex logic. if we not use the nested conditions we need to check all the conditions for apples , oranges or other fruits sequentially one by one 
+which leads to code DUPLICATION we need to repeat lot of code in order to achieve same output
+
+Moreover it is more error prone as codebase for that problem is too long and the probablity of error may increase and it also effects the debbuging process 
+
+Most important the code is difficult to read as we write flat code  not write in  seperate blocks which reduce the readability
+
+3Ans:
+we can use both series of if and series of elseif but the major difference between them is that in the series of if's each condition is being checked one after another no matter what the  previous value of if is true or not .whereas in if/else  if one condition found true then one iteration of loopo is finished it will not check the other conditions which makes it more efficent and increase cpu efficency  in if's condition cpu doing lot of extra work for checking other if's

@@ -1,0 +1,37 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #8
+Full Name  : Harsimranjit singh
+Student ID#: 155452220
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+Q1 
+Ans:
+    Benefit: Returning the values in two ways by argument and return keyword increase the usability and flexibility of the code as user can chose which method suits the best. 
+            Moreover it promotes the usability as some uesr prefer the simplicity in the program so they can get the values by return, whereas some apprciate the use of 
+            predefined variable to decrease the space complexity in the program so it will gave adaptability to both the users.
+
+    Drawback: The most important drawback is the complexity of the program as we need to maintain both return types moreover we also need to know the concept of the pointer
+              It also decrease the readiblity of the program as when we are dealing with the pointer the code become slighty large and the probablity of the errors increase. 
+
+Q2
+Ans: I think the start function is the less than perfect cohesion as it handles lot of logic which are unrealted to each other and can be done by seperate functions in the 
+program for example we are handling the logic for caluculating the data for both catfoodInfo and report which can be done in the seperate function moreover we can also make
+ a seperate for internal calculation like finding the cheapest product by implementing this we can increase the cohesiveness of the program
+
+in the function like displayFinalAnalysis,displayReportData,calculateReportData we are passing the full struct which increase the coupling in the program to improve it we can
+only those variables that the function need like in displayFinalAnalysis we can only pass the id and the price of the cheapest product as this function only need these two
+ pieces of the information to perform its task.
+
+Q3
+Ans: The main advantage of passing the structure to the function is the readibility , as these increase the readibility of the code. instead of passing the multiple variables 
+to the function we are just passing the one variable which contain all the infromation in the form of the object, a single variable provide the clear view towards the program.
+
+To make the displayCatFoodData efficent we can pass the structure by refernce rather than passing by the values as it cut out the copying of the object which reduce the space
+complexity of the program. also to increase the readibilty of the program we can use the arrow notation in the program which can only be done if we pass the structure by using
+the pointers

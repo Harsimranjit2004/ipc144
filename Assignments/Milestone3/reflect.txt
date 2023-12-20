@@ -1,0 +1,47 @@
+Name: Harsimranjit singh
+Section NNN
+Email: hsingh956@myseneca.ca
+StudentId: 155452220
+
+
+1Ans:
+    1. void sort() this functino is used to sort the appointment data on the basis
+    of the dates in this function i use the technique of the bubble sort to do that 
+    i first started sorting the data from year then month and then goes to the end minutes
+    if the preceeding value is less than the next value we can swap that values and store in
+    the same array of the appointments, the appointment array is passed by value which mean we 
+    need to sort the array for each function this function recieve the data pointer from the 
+    other function which containg all the information about the patient and it is stored directly 
+    to the pointer
+
+    2. monthUpperLimit() this is the utility function that i used in the different main function
+    in this function i find the days in the month and that specific year
+    in this function i mainly used the if stament that check the month number and then return the
+    days in the month. for this i define 2 arguments input first is the year and second one is the 
+    month and its return type will be int as we are returning the days in the respective month
+
+    3. inputCStringNumber() this function is specifically used taking input only for the phone number
+    this function is upgraged version of the inputCString() this function provide phone number specific
+    error and also ensure that the 10 digits is entered by the user
+    in this i define 3 arguments first argument is the poniter to the string at which the data has to be 
+    store , second it the minLength of the chacter and third one is the maxLength of the character
+    its return type will be void as we are stroing the value through the pointer to function
+
+2Ans:
+    for the input  we are using the different moudle or file that is core.c which contain all the logic for 
+    input and output if we are using the scanf in different function again and again it makes the code lengthy 
+    moreover in the core.c we are also doing the validation of the input and we ensure that the correct input 
+    is returned to the function if we include scanf in every function we need to do the validation of the input again and again 
+    which decrese the readibility of the program we are only using only scanf for takinng the input which is good practice
+    which makes the program highy cohesive with low coupling which is the good practice
+    for the programming
+
+3Ans: 
+    void sort() and monthUpperLimit() is placed in the utility section of the clinic.c as these are the helper 
+    function that is used in the other clinic.c function we need to seperate this function from the mainfunction 
+    as the main function call this function whenever the function need the use of this function 
+
+    inputCStringNumber() this function will be define in the core.c moudle as this function is taking the input 
+    from the user and all the input function are in the core.c moudle which makes the input moudle different from the 
+    clinic.c as all the main logic is defined in the clinic.c this concept is know as the modularity in which we makes the code 
+    highly cohesive with low coupling 
